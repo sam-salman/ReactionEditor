@@ -1,3 +1,14 @@
 2022-05-09 00:18:45 INFO     Video and reaction paths are set succefully
 2022-05-09 00:18:45 INFO     Video and reaction are composited
 2022-05-09 00:19:05 INFO     Video is written successfully
+2022-05-26 15:25:54 INFO     Video and reaction paths are set succefully
+2022-05-26 15:25:54 INFO     Reaction and video duration are matched17.6 17.6
+2022-05-26 15:25:54 INFO     Video and reaction are composited
+2022-05-26 15:26:17 INFO     Video is written successfully
+2022-05-26 15:33:05 INFO     Video and reaction paths are set succefully
+2022-05-26 15:33:05 INFO     Reaction and video duration are matched27.59 27.59
+2022-05-26 15:33:05 INFO     Video and reaction are composited
+2022-05-26 15:33:41 WARNING  C:\Python310\lib\site-packages\moviepy\video\io\ffmpeg_reader.py:123: UserWarning: Warning: in file D:\Training\python\Bot\ReactionEditor\videos\myvideo #shorts.mp4, 876960 bytes wanted but 0 bytes read,at frame 827/828, at time 27.57/27.59 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2022-05-26 15:33:43 INFO     Video is written successfully

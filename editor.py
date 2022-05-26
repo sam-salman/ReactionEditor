@@ -46,8 +46,7 @@ def editor(paths):
     try:
         if videoDuration > reactionDuration:
             difference = videoDuration -  reactionDuration
-
-
+            
             while videoDuration > reactionDuration:
                 newClip = reaction.subclip(0, reactionDuration)
                 reaction = concatenate_videoclips([newClip, reaction])
@@ -74,9 +73,10 @@ def editor(paths):
         log.info("Video and reaction are composited")
         # write video file at the provide path
 
-        final_clip.write_videofile(title + ".mp4")
+        final_clip.write_videofile("./videos/edited/" + title + ".mp4")
         log.info("Video is written successfully")
         print("Video Created")
+        
         return 
         # self.proc.terminate()
     except Exception as e:
